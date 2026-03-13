@@ -127,8 +127,8 @@ Before submitting, verify:
 
 ## Your Information
 
-**Name:** [Your Name]
-**Student ID:** [Your Student ID]
+**Name:** [Moomba Nicholas katapazi]
+**Student ID:** [2021473333]
 **Design Theme:** Modern minimal with warm neutrals, bold typography, and soft gradient accents.
 
 ### CSS Techniques Used
