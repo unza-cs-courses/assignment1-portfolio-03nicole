@@ -129,20 +129,23 @@ Before submitting, verify:
 
 **Name:** [Your Name]
 **Student ID:** [Your Student ID]
-**Design Theme:** [Describe your portfolio theme/style]
+**Design Theme:** Modern minimal with warm neutrals, bold typography, and soft gradient accents.
 
 ### CSS Techniques Used
-- [ ] CSS Custom Properties
-- [ ] Flexbox
-- [ ] CSS Grid
-- [ ] Media Queries
-- [ ] Other: _______________
+- [x] CSS Custom Properties
+- [x] Flexbox
+- [x] CSS Grid
+- [x] Media Queries
+- [x] Other: Sticky header, gradients, focus states
 
 ### Challenges & Solutions
-[Describe any challenges you faced and how you solved them]
+Balancing a clean layout with strong visual hierarchy was the biggest challenge. I solved it by
+using a restrained color palette, consistent spacing variables, and a clear type scale to
+separate headings from body content without clutter.
 
 ### Credits
-[List any images, fonts, or resources used with attribution]
+- Fonts: Playfair Display and Source Sans 3 via Google Fonts.
+- SVG placeholders: created by me for this assignment.
 
 ---
 

@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional portfolio website for [Your Name]">
-    <title>Portfolio - [Your Name]</title>
+    <meta name="description" content="Professional portfolio website for Moomba Katapazi">
+    <title>Portfolio - Moomba Katapazi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -33,10 +36,10 @@
                  - Active state indication
             -->
             <div class="nav__logo">
-                <a href="#home">[Your Name]</a>
+                <a href="#home">Moomba Katapazi</a>
             </div>
             <ul class="nav__menu">
-                <li><a href="#home">Home</a></li>
+                <li><a href="#home" class="is-active">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -55,12 +58,15 @@
                  - Consider using Flexbox for layout
             -->
             <div class="hero__content">
-                <h1>Your Name</h1>
+                <h1>Moomba Katapazi</h1>
                 <p class="hero__tagline">
-                    <!-- TODO: Add your professional tagline -->
-                    Web Developer | Designer | Problem Solver
+                    Web Developer | UX-Minded Designer | Problem Solver
+                </p>
+                <p class="hero__intro">
+                    I craft responsive, accessible websites that feel calm, intentional, and easy to use.
                 </p>
                 <a href="#contact" class="btn btn--primary">Get In Touch</a>
+                <a href="#projects" class="btn btn--outline">View Projects</a>
             </div>
         </section>
 
@@ -78,30 +84,34 @@
                 <h2>About Me</h2>
                 <div class="about__content">
                     <div class="about__image">
-                        <!-- TODO: Add your profile image -->
-                        <img src="images/profile-placeholder.jpg" alt="Profile photo of [Your Name]">
+                        <img src="images/profile.svg" alt="Illustrated profile of Moomba Katapazi">
                     </div>
                     <div class="about__text">
                         <p>
-                            <!-- TODO: Write your professional bio (150+ words)
-                                 Include:
-                                 - Your background
-                                 - Your interests in web development
-                                 - Your goals
-                                 - What makes you unique
-                            -->
-                            [Your professional bio goes here. Write at least 150 words about yourself,
-                            your background, your passion for web development, and your goals.
-                            This is your opportunity to introduce yourself to potential employers or clients.]
+                            I am a web development student who enjoys turning ideas into clean, responsive
+                            interfaces that are easy to navigate. My background includes coursework in HTML,
+                            CSS, and JavaScript, along with hands-on projects where I focused on layout,
+                            typography, and accessibility. I am especially interested in how thoughtful
+                            design choices make technology feel welcoming and intuitive. When I build a
+                            page, I start with structure and semantics, then layer in styles that support
+                            clarity and hierarchy. I also test across breakpoints to make sure the experience
+                            is consistent on phones, tablets, and desktops. My goal is to grow into a
+                            front-end developer who can collaborate across teams and deliver experiences
+                            that are both beautiful and reliable. What makes me unique is my balance of
+                            detail-oriented visual design with a practical, problem-solving mindset, so
+                            every feature looks good and works well.
                         </p>
                         <h3>Skills</h3>
                         <ul class="skills-list">
-                            <!-- TODO: Add your skills -->
                             <li>HTML5</li>
                             <li>CSS3</li>
                             <li>JavaScript</li>
                             <li>Responsive Design</li>
-                            <!-- Add more skills -->
+                            <li>CSS Grid</li>
+                            <li>Flexbox</li>
+                            <li>Accessibility</li>
+                            <li>UI Design</li>
+                            <li>Git & GitHub</li>
                         </ul>
                     </div>
                 </div>
@@ -122,13 +132,12 @@
                 <div class="projects__grid">
                     <!-- Project Card 1 -->
                     <article class="project-card">
-                        <!-- TODO: Replace with your project -->
-                        <img src="images/project1-placeholder.jpg" alt="Screenshot of Project 1">
+                        <img src="images/project1.svg" alt="Screenshot of Calm Portfolio project">
                         <div class="project-card__content">
-                            <h3>Project Title 1</h3>
+                            <h3>Calm Portfolio</h3>
                             <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
+                                A minimal, responsive portfolio that highlights skills and projects
+                                with clear visual hierarchy and accessible navigation.
                             </p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
@@ -139,13 +148,12 @@
 
                     <!-- Project Card 2 -->
                     <article class="project-card">
-                        <!-- TODO: Replace with your project -->
-                        <img src="images/project2-placeholder.jpg" alt="Screenshot of Project 2">
+                        <img src="images/project2.svg" alt="Screenshot of Study Planner project">
                         <div class="project-card__content">
-                            <h3>Project Title 2</h3>
+                            <h3>Study Planner</h3>
                             <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
+                                A focused task planner for students with priority tags and a clean
+                                grid layout that scales from mobile to desktop.
                             </p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
@@ -156,13 +164,12 @@
 
                     <!-- Project Card 3 -->
                     <article class="project-card">
-                        <!-- TODO: Replace with your project -->
-                        <img src="images/project3-placeholder.jpg" alt="Screenshot of Project 3">
+                        <img src="images/project3.svg" alt="Screenshot of Weather Dashboard project">
                         <div class="project-card__content">
-                            <h3>Project Title 3</h3>
+                            <h3>Weather Dashboard</h3>
                             <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
+                                A simple weather dashboard UI featuring cards, icons, and a responsive
+                                layout designed for quick scanning.
                             </p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
@@ -248,12 +255,12 @@
              - Back to top link (optional)
         -->
         <div class="container">
-            <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+            <p>&copy; 2026 Moomba Katapazi. All rights reserved.</p>
             <nav class="footer__social">
-                <!-- TODO: Add your social media links -->
                 <a href="#" aria-label="GitHub">GitHub</a>
                 <a href="#" aria-label="LinkedIn">LinkedIn</a>
                 <a href="#" aria-label="Twitter">Twitter</a>
+                <a href="#home" class="footer__top">Back to top</a>
             </nav>
         </div>
     </footer>

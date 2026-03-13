@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#fffaf6"/>
+  <rect x="80" y="80" width="1040" height="640" rx="40" fill="#f2e3d6"/>
+  <rect x="140" y="140" width="360" height="520" rx="24" fill="#c56b3e"/>
+  <rect x="540" y="170" width="520" height="80" rx="16" fill="#2f6f6d"/>
+  <rect x="540" y="280" width="520" height="40" rx="10" fill="#d8c7bb"/>
+  <rect x="540" y="350" width="420" height="40" rx="10" fill="#d8c7bb"/>
+  <rect x="540" y="420" width="480" height="40" rx="10" fill="#d8c7bb"/>
+  <text x="560" y="230" font-family="Georgia, serif" font-size="34" fill="#fffaf6">Calm Portfolio</text>
+</svg>
